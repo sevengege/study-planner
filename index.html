@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>学习计划工具集</title>
+<style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    font-family: "PingFang SC","Microsoft YaHei",system-ui,sans-serif;
+    background: linear-gradient(160deg,#FFF9EF 0%,#F3F7FF 100%);
+    color:#4A3F35; min-height:100vh; padding:48px 20px;
+  }
+  .wrap { max-width:880px; margin:0 auto; }
+  h1 { font-size:30px; text-align:center; letter-spacing:1px; }
+  .sub { text-align:center; color:#8A7B6B; margin:12px 0 40px; font-size:15px; }
+  .cards { display:grid; grid-template-columns:repeat(auto-fit,minmax(300px,1fr)); gap:20px; }
+  a.card {
+    display:block; text-decoration:none; color:inherit; background:#fff;
+    border:2px solid #EFE3D0; border-radius:24px; padding:26px 24px;
+    box-shadow:0 6px 20px rgba(74,63,53,.07); transition:transform .2s, box-shadow .2s;
+  }
+  a.card:hover { transform:translateY(-4px); box-shadow:0 12px 28px rgba(74,63,53,.13); }
+  .icon { font-size:34px; }
+  .card h2 { font-size:20px; margin:10px 0 6px; }
+  .card .tag { display:inline-block; font-size:12px; padding:3px 10px; border-radius:999px; background:#FFF3DD; color:#C4831B; margin-bottom:10px; }
+  .card p { font-size:14px; line-height:1.8; color:#8A7B6B; }
+  .card .go { margin-top:16px; font-size:14px; font-weight:700; color:#F5A623; }
+  footer { text-align:center; margin-top:48px; font-size:12px; color:#A99C8C; line-height:2; }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <h1>📚 学习计划工具集</h1>
+  <p class="sub">把每天的努力，变成看得见的成长</p>
+
+  <div class="cards">
+    <a class="card" href="./little-step/">
+      <div class="icon">◷</div>
+      <span class="tag">纯静态版 · 无需网络服务</span>
+      <h2>一点一点 · 学习时间管理</h2>
+      <p>把作业一行行敲进去，一键排出时间表；专注计时、完成划项、日历标记与每日复盘。支持"7-语文三新"这类简写，数据存在本机浏览器，可导出备份。</p>
+      <div class="go">开始使用 →</div>
+    </a>
+
+    <a class="card" href="./journal/">
+      <div class="icon">🗂</div>
+      <span class="tag">Next.js 版 · AI 整理计划</span>
+      <h2>学习手账</h2>
+      <p>语音或文字记录任务，AI 自动整理成结构化学习计划（含目标与完成标准）；打卡计时、完成划项、日历复盘。AI 不可用时自动降级为本地规则解析。</p>
+      <div class="go">开始使用 →</div>
+    </a>
+  </div>
+
+  <footer>
+    两个工具数据都保存在本机浏览器（localStorage），互不影响<br>
+    <span style="opacity:.7">开源仓库：github.com/sevengege/study-planner</span>
+  </footer>
+</div>
+</body>
+</html>
