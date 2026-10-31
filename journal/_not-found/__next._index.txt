@@ -2,5 +2,5 @@
 2:I[4800,[],""]
 3:I[3078,[],""]
 4:I[7004,["177","static/chunks/app/layout-7bf6c012964033e1.js"],"PwaSetup"]
-:HL["/study-planner/journal/_next/static/css/4ced3d5bf4a4e882.css","style"]
-0:{"buildId":"Eo-unTyPqlanRkFTpcBoi","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/study-planner/journal/_next/static/css/4ced3d5bf4a4e882.css","precedence":"next"}]],["$","html",null,{"lang":"zh-CN","children":["$","body",null,{"className":"antialiased","children":[["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}],["$","$L4",null,{}]]}]}]]}],"loading":null,"isPartial":false}
+:HL["/study-planner/journal/_next/static/css/756b74ca1934a559.css","style"]
+0:{"buildId":"n90_S8OM-D_hi9nhzKEO7","rsc":["$","$1","c",{"children":[[["$","link","0",{"rel":"stylesheet","href":"/study-planner/journal/_next/static/css/756b74ca1934a559.css","precedence":"next"}]],["$","html",null,{"lang":"zh-CN","children":["$","body",null,{"className":"antialiased","children":[["$","$L2",null,{"parallelRouterKey":"children","template":["$","$L3",null,{}]}],["$","$L4",null,{}]]}]}]]}],"loading":null,"isPartial":false}
